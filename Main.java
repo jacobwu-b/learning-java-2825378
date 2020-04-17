@@ -11,9 +11,8 @@ public class Main {
         System.out.println("What do you want to update it to?");
 
         Scanner input = new Scanner(System.in);
-        System.out.println(input);
-
         studentGPA = input.nextDouble();
+        
         System.out.println(studentFirstName + " " +
                 studentLastName + " now has an updated GPA of " + studentGPA);
     }
